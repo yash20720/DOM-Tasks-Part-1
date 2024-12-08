@@ -1,0 +1,47 @@
+#odiv{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+#resultdiv{
+    width: 50%;
+    height: 70px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0,0,0);
+}
+
+.colorno{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.colordiv{
+    margin: 10px;
+    padding: 10px;
+}
+
+.colorip{
+    width: 500px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+}
+
+#red{
+    background-image: linear-gradient(to right, black, red);
+}
+
+#green{
+    background-image: linear-gradient(to right, black, green);
+}
+
+#blue{
+    background-image: linear-gradient(to right, black, blue);
+}

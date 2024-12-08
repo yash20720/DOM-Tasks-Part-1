@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>6th Task</title>
+</head>
+<body>
+    <div id="odiv">
+        <div id="resultdiv"></div>
+        <div class="colordiv">
+            <span>R</span>
+            <input type="text" disabled id="redno" class="colorno" placeholder="0">
+            <input type="range" min="0" max="255" id="red" class="colorip" oninput="rhandler(this.value)">
+        </div>
+        <div class="colordiv">
+            <span>G</span>
+            <input type="text" disabled id="greenno" class="colorno" placeholder="0">
+            <input type="range" min="0" max="255" id="green" class="colorip" oninput="ghandler(this.value)">
+        </div>
+        <div class="colordiv">
+            <span>B</span>
+            <input type="text" disabled id="blueno" class="colorno" placeholder="0">
+            <input type="range" min="0" max="255" id="blue" class="colorip" oninput="bhandler(this.value)">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 

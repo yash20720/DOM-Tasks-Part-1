@@ -1,0 +1,46 @@
+#odiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    height: 75px;
+    width: 300px;
+    border-radius: 25px;
+    display: none;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#newbtn{
+    width: 130px;
+    height: 30px;
+    top: 60%;
+    position: absolute;
+    left: 41%;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.idiv{
+    width: 100px;
+    height: 75px;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#zero{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+}

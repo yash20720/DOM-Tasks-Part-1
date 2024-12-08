@@ -1,0 +1,39 @@
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#converter{
+    border-color: black;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 650px;
+    margin: 30px;
+}
+
+.ip{
+    border-color: black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.para{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#flexdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-size: large;
+    font-weight: bold;
+}
